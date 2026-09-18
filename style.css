@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #050505;
+    border-bottom: 1px solid #333333;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    width: 190px;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 25px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #00cc55;
+}
+
+section {
+    padding: 80px 5% 50px;
+    min-height: 100vh;
+}
+
+#hero {
+    text-align: center;
+    background-color: #0a0a0a;
+}
+
+.badge {
+    display: inline-block;
+    color: #00cc55;
+    border: 1px solid #00cc55;
+    padding: 8px 15px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#hero h1 {
+    max-width: 900px;
+    margin: 0 auto 25px;
+    font-size: 42px;
+}
+
+#hero h1 span {
+    color: #00cc55;
+}
+
+#hero p {
+    max-width: 700px;
+    margin: 0 auto 35px;
+    color: #bbbbbb;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #00cc55;
+    color: #000000;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #00cc55;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.tech-container {
+    margin-top: 70px;
+}
+
+.tech-grid,
+.stats-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tech-card,
+.stat-card,
+.retrospective,
+.form-container {
+    background-color: #151515;
+    border: 1px solid #333333;
+    padding: 25px;
+}
+
+.tech-card {
+    width: 23%;
+    min-width: 220px;
+}
+
+.tech-card h3 {
+    color: #00cc55;
+    margin-bottom: 15px;
+}
+
+.tech-card p,
+.timeline-desc,
+.retrospective p {
+    color: #bbbbbb;
+}
+
+#programacao {
+    background-color: #101010;
+}
+
+.timeline {
+    max-width: 800px;
+    margin: 0 auto;
+    border-left: 2px solid #333333;
+    padding-left: 30px;
+}
+
+.timeline-item {
+    margin-bottom: 35px;
+}
+
+.timeline-time {
+    color: #00cc55;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.timeline-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.stat-card {
+    width: 22%;
+    min-width: 180px;
+    text-align: center;
+}
+
+.stat-number {
+    color: #00cc55;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.stat-label {
+    color: #bbbbbb;
+}
+
+.retrospective {
+    max-width: 800px;
+    margin: 50px auto 0;
+    border-left: 4px solid #00cc55;
+}
+
+.retrospective h3 {
+    color: #00cc55;
+    margin-bottom: 15px;
+}
+
+#inscricao {
+    background-color: #0d180f;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    border: 1px solid #444444;
+    font-size: 16px;
+}
+
+.form-submit-btn {
+    width: 100%;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #050505;
+    border-top: 1px solid #333333;
+    text-align: center;
+    padding: 30px 5%;
+    color: #bbbbbb;
+}
+
+.footer-subtext {
+    margin-top: 10px;
+    color: #777777;
+}
